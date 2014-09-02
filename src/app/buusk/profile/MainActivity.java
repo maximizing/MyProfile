@@ -19,7 +19,7 @@ public class MainActivity extends Activity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnViewImage = (Button) findViewById(R.id.btn2);
-        ag = (TextView) findViewById(R.id.txt3);
+        //ag = (TextView) findViewById(R.id.txt3);
         //ag.setText("kookkik ba mak");
         btnViewImage.setOnClickListener(new OnClickListener() {
 			
