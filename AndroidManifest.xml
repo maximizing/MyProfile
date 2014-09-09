@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ImgView"></activity>
+        <activity android:name="Edit"></activity>
     </application>
 
 </manifest>
