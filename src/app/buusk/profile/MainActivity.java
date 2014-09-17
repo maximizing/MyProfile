@@ -38,25 +38,30 @@ public class MainActivity extends Activity implements OnClickListener {
 		txt4 = (TextView) findViewById(R.id.country);
 		txt5 = (TextView) findViewById(R.id.tel);
 		txt6 = (TextView) findViewById(R.id.email);
-		txt1.setText("22");
-		txt2.setText("174");
-		txt3.setText("58");
-		txt4.setText("Thailands");
-		txt5.setText("081-7971589");
-		txt6.setText("kiattisak_max@hotmail.coms");
+		
 		show1 = getIntent().getStringExtra("txt11");
 		show2 = getIntent().getStringExtra("txt22");
 		show3 = getIntent().getStringExtra("txt33");
 		show4 = getIntent().getStringExtra("txt44");
 		show5 = getIntent().getStringExtra("txt55");
 		show6 = getIntent().getStringExtra("txt66");
+		
+		if(txt1 == null){
+			txt1.setText("22");
+			txt2.setText("174");
+			txt3.setText("58");
+			txt4.setText("Thailands");
+			txt5.setText("081-7971589");
+			txt6.setText("kiattisak_max@hotmail.coms");
+		}
+		if(show1 != null){
 		txt1.setText(show1);
 		txt2.setText(show2);
 		txt3.setText(show3);
 		txt4.setText(show4);
 		txt5.setText(show5);
 		txt6.setText(show6);
-		
+		}
 
 	}
 

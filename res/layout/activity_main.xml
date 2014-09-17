@@ -255,7 +255,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/view5"
         android:layout_alignParentRight="true"
-        android:text=" "
+        android:text="Thailand"
         android:textColor="@color/BlueViolet" />
 
     <TextView
